@@ -8,6 +8,10 @@ export default [
     label: 'Services',
   },
   {
+    path: 'news',
+    label: 'use cases',
+  },
+  {
     path: 'customer-support',
     label: 'Support',
   },

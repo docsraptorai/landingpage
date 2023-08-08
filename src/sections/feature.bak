@@ -12,28 +12,35 @@ import featureImage3 from 'assets/tutorial-1-3.png';
 const FeatureData = [
   {
     image: featureImage1,
-    title: 'Chat with AI on YOUR specific domain with YOUR documents',
-    content: 'Search for the relevant information with the power of AI instead of searching in a long list of documents',
-  },
-  {
-    image: featureImage2,
-    title: 'Efficient Learning Assistant',
-    content: 'Upload class notes and research papers to benefit from AI-driven content summarization, facilitating quick review of key concepts',
+    title: 'Create a Q&A chat on YOUR specific domain with YOUR documents. Search for the relevant information with the power of AI instead of searching in a long list of documents.',
+    comments: '22 Comments',
+    path: '/',
   },
   {
     image: featureImage3,
-    title: 'Actionable Market Insights',
-    content: 'Companies can leverage AI to analyze uploaded internal reports and customer feedback, extracting insights, trends, and strategies for enhancing products and services',
-  },
-  {
-    image: featureImage1,
-    title: 'Collaborative Lore Construction with Game Document Sharing',
-    content: 'Players collaboratively build game lore by sharing character stories and interactions. Using AI analysis, these documents are transformed into intricate narratives, enhancing the immersive depth of the game world',
+    title: 'Personalized Writing Helper: Upload personal documents like journals or notes for AI-driven style and content analysis, aiding in creating customized content like blog posts or creative writing.',
+    comments: '15 Comments',
+    path: '/',
   },
   {
     image: featureImage2,
-    title: 'Personalized Writing Helper',
-    content: 'Upload personal documents like journals or notes for AI-driven style and content analysis, aiding in creating customized content like blog posts or creative writing',
+    title: 'Efficient Learning Assistant: Upload class notes and research papers to benefit from AI-driven content summarization, facilitating quick review of key concepts.',
+    comments: '15 Comments',
+    path: '/',
+  },
+  {
+    image: featureImage1,
+    title: 'Collaborative Lore Construction with Document Sharing:\n' +
+        'Players collaboratively build game lore by sharing character stories and interactions. Using AI analysis, these documents are transformed into intricate narratives, enhancing the immersive depth of the game world.',
+    comments: '15 Comments',
+    path: '/',
+  },
+  {
+    image: featureImage3,
+    title:
+      'Business Use Case with actionable Market Insights: Companies can leverage AI to analyze uploaded internal reports and customer feedback, extracting insights, trends, and strategies for enhancing products and services.',
+    comments: '12 Comments',
+    path: '/',
   },
 ];
 
@@ -91,8 +98,8 @@ const Feature = () => {
     <Box sx={styles.features} id="news">
       <Container>
         <BlockTitle
-          slogan="Use cases"
-          title="Examples to inspire you"
+          slogan="Quality features"
+          title="Tutorials that people love most"
           styles={styles.blockTitle}
         />
 
@@ -102,7 +109,8 @@ const Feature = () => {
               <FeatureCard
                 image={feature.image}
                 title={feature.title}
-                content={feature.content}
+                commentCount={feature.comments}
+                path={feature.path}
               />
             </div>
           ))}

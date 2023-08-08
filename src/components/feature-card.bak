@@ -13,11 +13,12 @@ const FeatureCard = (props) => {
       </Box>
       <Box sx={styles.content}>
         <Heading as="h3">
-          {props.title}
+          <Link path={props.path}>{props.title}</Link>
         </Heading>
-        <Box as="p">
-          {props.content}
-        </Box>
+        <Text as="p">
+          <Image src={CommentIcon} alt="" />
+          {props.commentCount}
+        </Text>
       </Box>
     </Box>
   );
