@@ -2,7 +2,7 @@
 import { jsx, Image } from 'theme-ui';
 import { Link } from 'components/link';
 // import logo from 'assets/logo.svg';
-import logo from 'assets/dinosaurlogo.png';
+import logo from 'assets/dinologo.png';
 
 export default function Logo() {
   return (

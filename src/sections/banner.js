@@ -20,7 +20,7 @@ const Banner = () => {
               Chat with the newest AI models on YOUR documents
             </Heading>
             <Text as="p">
-              Join the closed beta program to hunt fast the valuable information within YOUR documents. No coding required.
+              Join the closed alpha program to hunt fast the valuable information within YOUR documents. No coding required.
             </Text>
             <Box as="form" sx={styles.form} method="post" action="/api/subscribe">
               <Box as="label" htmlFor="email" variant="styles.srOnly">

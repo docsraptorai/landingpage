@@ -29,9 +29,9 @@ const SERVICES_DATA = [
   },
   {
     icon: icon4,
-    title: 'Contribute to the beta service building and get free service',
+    title: 'Contribute to the service building and get free service',
     text:
-      'docsraptor.ai is currently in closed beta. Help us by giving feedback on what you really need and get the service for free.',
+      'docsraptor.ai is currently in closed alpha. Help us by giving feedback on what you really need and get the service for free.',
   },
 ];
 
