@@ -17,7 +17,7 @@ const SERVICES_DATA = [
   },
   {
     icon: icon2,
-    title: 'Chat with the newest AI models on YOUR documents',
+    title: 'Q&A chat with the newest AI models on YOUR documents',
     text:
       'Experience a chat with the newest GPT AI models on your documents. Publish it directly or embed it in your application to give your users new docraptor.ai superpowers. No coding required.',
   },

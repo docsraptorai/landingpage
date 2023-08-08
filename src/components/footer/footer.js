@@ -25,13 +25,6 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} docraptor.ai all right reserved - <a target="_blank" href="https://redq.io/">Theme designed by RedQ, Inc</a>
           </Text>
         </Box>
-        <Box sx={styles.right}>
-          <Link path="/" label="Home" />
-          <Link path="/" label="Adversite" />
-          <Link path="/" label="Supports" />
-          <Link path="/" label="Marketing" />
-          <Link path="/" label="FAQ" />
-        </Box>
       </Container>
     </footer>
   );
