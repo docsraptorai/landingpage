@@ -15,7 +15,7 @@ export default function Header({ className }) {
     <DrawerProvider>
       <header sx={styles.header} className={className}>
         <Container sx={styles.container}>
-          <Logo /><h1>docraptor.ai</h1>
+          <Logo /><h1>docsraptor.ai</h1>
 
           <Flex as="nav" sx={styles.nav}>
             {menuItems.map(({ path, label }, i) => (

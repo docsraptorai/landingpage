@@ -22,7 +22,7 @@ export default function Footer() {
         <Box sx={styles.left}>
           <Logo />
           <Text as="p">
-            &copy; {new Date().getFullYear()} docraptor.ai all right reserved - <a target="_blank" href="https://redq.io/">Theme designed by RedQ, Inc</a>
+            &copy; {new Date().getFullYear()} docsraptor.ai all right reserved - <a target="_blank" href="https://redq.io/">Theme designed by RedQ, Inc</a>
           </Text>
         </Box>
       </Container>

@@ -56,7 +56,7 @@ const MobileDrawer = () => {
     >
       <Scrollbars autoHide>
         <Box sx={styles.content}>
-          <Logo /><h1>docraptor.ai</h1>
+          <Logo /><h1>docsraptor.ai</h1>
           <Box sx={styles.menu}>
             {menuItems.map(({ path, label }, i) => (
               <ScrollLink

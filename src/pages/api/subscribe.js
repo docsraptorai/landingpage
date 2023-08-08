@@ -38,7 +38,7 @@ export default async (req, res) => {
     // 7. Swallow any errors from Mailchimp and return a better error message.
     if (response.status >= 400) {
       return res.status(400).json({
-        error: `There was an error registering to the beta. Please send an email at [contact@docraptor.ai] and we will add you to the waiting list.`,
+        error: `There was an error registering to the beta. Please send an email at [contact@docsraptor.ai] and we will add you to the waiting list.`,
       });
     }
 

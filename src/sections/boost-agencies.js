@@ -20,7 +20,7 @@ const BoostAgencies = () => {
                     Build your first experience in minutes
                 </Heading>
                 <Text as="p">
-                    docraptor.ai is a no-code platform that allows you to build your first experience in minutes.
+                    docsraptor.ai is a no-code platform that allows you to build your first experience in minutes.
                 </Text>
               </Box>
               <Box as="ul" sx={styles.list}>

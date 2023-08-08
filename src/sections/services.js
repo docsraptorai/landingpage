@@ -19,7 +19,7 @@ const SERVICES_DATA = [
     icon: icon2,
     title: 'Q&A chat with the newest AI models on YOUR documents',
     text:
-      'Experience a chat with the newest GPT AI models on your documents. Publish it directly or embed it in your application to give your users new docraptor.ai superpowers. No coding required.',
+      'Experience a chat with the newest GPT AI models on your documents. Publish it directly or embed it in your application to give your users new docsraptor.ai superpowers. No coding required.',
   },
   {
     icon: icon3,
@@ -31,7 +31,7 @@ const SERVICES_DATA = [
     icon: icon4,
     title: 'Contribute to the beta service building and get free service',
     text:
-      'docraptor.ai is currently in closed beta. Help us by giving feedback on what you really need and get the service for free.',
+      'docsraptor.ai is currently in closed beta. Help us by giving feedback on what you really need and get the service for free.',
   },
 ];
 

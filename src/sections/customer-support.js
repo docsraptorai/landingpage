@@ -18,13 +18,13 @@ const CustomerSupport = () => {
                 Direct support on discord to help you build your first experience
               </Heading>
               <Text as="p">
-                docraptor.ai is currently in closed beta and only accessible by invite.
+                docsraptor.ai is currently in closed beta and only accessible by invite.
                 The customer support is here to answer any questions you may have to tune your experience
                 and enhance the service to your liking.
                 You can access our direct support on our private discord server.
               </Text>
               <Text as="p" sx={styles.specialText}>
-                If you don't have access to the beta and want to contact us, please send us an email at <a href="mailto:contact@docraptor.ai">contact@docraptor.ai</a>
+                If you don't have access to the beta and want to contact us, please send us an email at <a href="mailto:contact@docsraptor.ai">contact@docsraptor.ai</a>
               </Text>
             </Box>
           </Box>
