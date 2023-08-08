@@ -34,7 +34,7 @@ const BoostAgencies = () => {
                 </Text>
                 <Text as="li">
                   <IoIosCheckmarkCircle />
-                  Built by an experienced team
+                  Built with the community
                 </Text>
               </Box>
             </Box>

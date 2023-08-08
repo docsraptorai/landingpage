@@ -19,19 +19,19 @@ const SERVICES_DATA = [
     icon: icon2,
     title: 'Q&A chat with the newest AI models on YOUR documents',
     text:
-      'Experience a chat with the newest GPT AI models on your documents. Publish it directly or embed it in your application to give your users new docsraptor.ai superpowers. No coding required.',
+      'Experience a chat with the newest GPT AI models on your documents. No coding required. In future beta: Publish it directly or embed it in your application to give your users new docsraptor.ai superpowers.',
   },
   {
     icon: icon3,
     title: 'Customize your own integration with our API',
     text:
-      'Call your secured and dedicated prediction API on YOUR documents to integrate with your own application.',
+      'In future beta: Call your secured and dedicated prediction API on YOUR documents to integrate with your own application.',
   },
   {
     icon: icon4,
-    title: 'Contribute to the service building and get free service',
+    title: 'Contribute to the community to build the service you want and get the service for free',
     text:
-      'docsraptor.ai is currently in closed alpha. Help us by giving feedback on what you really need and get the service for free.',
+      'docsraptor.ai is currently in closed alpha and we want to build the best community with all our users around AI powered documents Q&A!',
   },
 ];
 

@@ -23,6 +23,7 @@ export default function IndexPage() {
           <Banner />
           <Services />
           <BoostAgencies />
+          <Feature />
           <CustomerSupport />
           <CallToAction />
         </Layout>

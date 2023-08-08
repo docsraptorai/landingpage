@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Container, Grid, Heading, Text } from 'theme-ui';
+import {Box, Container, Grid, Heading, jsx, Text} from 'theme-ui';
 import { FaAngleRight } from 'react-icons/fa';
 import { Link } from 'components/link';
 import Image from 'components/image';
@@ -21,12 +21,18 @@ const CustomerSupport = () => {
                 docsraptor.ai is currently in closed alpha and only accessible by invite.
                 The customer support is here to answer any questions you may have to tune your experience
                 and enhance the service to your liking.
-                You can access our direct support on our private discord server.
+                You can access our direct support on our discord server in dedicated private channels.
               </Text>
               <Text as="p" sx={styles.specialText}>
-                If you don't have access to the alpha and want to contact us, please send us an email at <a href="mailto:contact@docsraptor.ai">contact@docsraptor.ai</a>
+                If you don't have access to the alpha and want to contact us, <a href="https://discord.com/channels/1138385140674998312/1138558383549587477">please reach us on discord</a> or send us an email at <a href="mailto:contact@docsraptor.ai">contact@docsraptor.ai</a> (Please consider using discord over email which will be slower).
               </Text>
             </Box>
+            <a
+                href='https://discord.com/channels/1138385140674998312/1138558383549587477'
+                target="_blank"
+                ml={2}
+                sx={styles.headerBtn}
+                variant="buttons.primary">Contact on discord <FaAngleRight/></a>
           </Box>
           <Box sx={styles.col}>
             <Image src={img1} alt="" />
