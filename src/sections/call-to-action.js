@@ -10,7 +10,7 @@ const CallToAction = () => {
           <Heading as="h3">
             Register to the waiting list to try the service!
           </Heading>
-          <Box sx={styles.btnWrapper}>
+          <Box sx={styles.btnWrapper} onClick={() => document.location.href = "/#banner"}>
             <Button sx={styles.btn}>REGISTER</Button>
           </Box>
         </Box>

@@ -22,13 +22,13 @@ const Banner = () => {
             <Text as="p">
               Join the closed beta program to hunt fast the valuable information within YOUR documents. No coding required.
             </Text>
-            <Box as="form" sx={styles.form}>
-              <Box as="label" htmlFor="register" variant="styles.srOnly">
+            <Box as="form" sx={styles.form} method="post" action="/api/subscribe">
+              <Box as="label" htmlFor="email" variant="styles.srOnly">
                 register
               </Box>
               <Input
-                name="register"
-                id="register"
+                name="email"
+                id="email"
                 placeholder="Register to the waiting list"
                 sx={styles.form.input}
               />
