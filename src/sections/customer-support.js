@@ -32,7 +32,7 @@ const CustomerSupport = () => {
                 target="_blank"
                 ml={2}
                 sx={styles.headerBtn}
-                variant="buttons.primary">Contact on discord <FaAngleRight/></a>
+                variant="buttons.primary">Come chat with us on discord<FaAngleRight/></a>
           </Box>
           <Box sx={styles.col}>
             <Image src={img1} alt="" />
