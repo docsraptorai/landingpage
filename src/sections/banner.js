@@ -17,10 +17,11 @@ const Banner = () => {
         <Grid sx={styles.grid}>
           <Box sx={styles.content}>
             <Heading as="h3">
-              Chat with the newest AI models on YOUR documents
+              Dedicated AI chat in minutes with YOUR documents
             </Heading>
             <Text as="p">
-              Join the closed alpha program to start getting valuable information with YOUR documents. No coding required.
+              Turn your unique documents and websites into a powerful Q&A system for your community, your customers, or just you!<br />
+              Join the closed alpha program to start getting valuable information with YOUR documents and web sites. No coding required.
             </Text>
             <Box as="form" sx={styles.form} method="post" action="/api/subscribe">
               <Box as="label" htmlFor="email" variant="styles.srOnly">

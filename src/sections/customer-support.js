@@ -9,7 +9,7 @@ import img1 from 'assets/dinosaursupport.png';
 
 const CustomerSupport = () => {
   return (
-    <Box as="section" sx={styles.customerSupport} id="customer-support">
+    <Box as="section" sx={styles.customerSupport} id="community-support">
       <Container>
         <Grid sx={styles.row}>
           <Box sx={styles.col}>
@@ -19,7 +19,7 @@ const CustomerSupport = () => {
               </Heading>
               <Text as="p">
                 docsraptor.ai is currently in closed alpha and only accessible by invite.
-                The customer support is here to answer any questions you may have to tune your experience
+                The community support is here to answer any questions you may have to tune your experience
                 and enhance the service to your liking.
                 You can access our direct support on our discord server in dedicated private channels.
               </Text>

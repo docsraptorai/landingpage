@@ -7,41 +7,42 @@ import icon1 from 'assets/icons/service-1-1.svg';
 import icon2 from 'assets/icons/service-1-2.svg';
 import icon3 from 'assets/icons/service-1-3.svg';
 import icon4 from 'assets/icons/service-1-4.svg';
+import {FaAngleRight} from "react-icons/fa";
 
 const SERVICES_DATA = [
   {
     icon: icon1,
     title: 'Document upload and ingestion by AI',
     text:
-      'Upload and translate your Web page, PDF, text or images documents one by one or by asynchronous batches. Keep control of your data indexes in your data management space.',
+      'Upload and translate your Web page, PDF, text or images documents one by one or with asynchronous batches. Keep control of your data indexes collections in your data management space.',
   },
   {
     icon: icon2,
     title: 'Q&A chat with the newest AI models on YOUR documents',
     text:
-      'Experience a chat with the newest GPT AI models on your documents. No coding required. In future beta: Publish it directly or embed it in your application to give your users new docsraptor.ai superpowers.',
+      'Experience a chat with the newest GPT AI models on your documents. No coding required. In future beta: Publish a public or private chat application directly or embed it in your application to give your users new docsraptor.ai superpowers.',
   },
   {
     icon: icon3,
     title: 'Customize your own integration with our API',
     text:
-      'In future beta: Call your secured and dedicated prediction API on YOUR documents to integrate with your own application.',
+      'In future beta: Call your secured and dedicated prediction API on YOUR documents to integrate with your own application. ',
   },
   {
     icon: icon4,
     title: 'Contribute to the community to build the service you want and get the service for free',
     text:
-      'docsraptor.ai is currently in closed alpha and we want to build the best community with all our users around AI powered documents Q&A!',
+      'docsraptor.ai is currently in closed alpha and we are engaged to build the best community with all our users around AI powered documents Q&A!',
   },
 ];
 
 const Services = () => {
   return (
-    <Box sx={styles.services} id="services">
+    <Box sx={styles.services} id="features">
       <Container>
         <BlockTitle
-          slogan="Quality features"
-          title="Meet exciting feature of app"
+          slogan="Streamlined Features"
+          title="Discover the exciting features of the service"
           styles={styles.blockTitle}
         />
         <Grid sx={styles.grid}>
@@ -59,6 +60,7 @@ const Services = () => {
             </Box>
           ))}
         </Grid>
+        <Box sx={styles.serviceFooter}><a target="_blank" href="https://discord.com/channels/1138385140674998312/1138558383549587477"><h2>Come to talk with the community about more data connectors, chat application publication and API integration options!<FaAngleRight/></h2></a></Box>
       </Container>
     </Box>
   );
@@ -67,6 +69,10 @@ const Services = () => {
 export default Services;
 
 const styles = {
+  serviceFooter: {
+   textAlign: 'center',
+    padding: '40px 60px 60px 10px',
+  },
   services: {
     pt: ['80px', null, null, null, null, null, '140px'],
     '.service-card:nth-of-type(2)': {

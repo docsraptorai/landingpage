@@ -12,8 +12,8 @@ import featureImage3 from 'assets/tutorial-1-3.png';
 const FeatureData = [
   {
     image: featureImage1,
-    title: 'Chat with AI on YOUR specific domain with YOUR documents',
-    content: 'Search for the relevant information with the power of AI instead of searching in a long list of documents',
+    title: 'Chat with AI on YOUR specific domain with YOUR unique documents',
+    content: 'Search for the relevant information with the power of AI instead of searching in a long list of documents. Leverage your own knowledge base unavailable on the web and get the best answers.',
   },
   {
     image: featureImage2,
@@ -88,11 +88,11 @@ const Feature = () => {
     },
   };
   return (
-    <Box sx={styles.features} id="news">
+    <Box sx={styles.features} id="usecases">
       <Container>
         <BlockTitle
           slogan="Use cases"
-          title="Examples to inspire you"
+          title="To inspire you"
           styles={styles.blockTitle}
         />
 
