@@ -20,7 +20,7 @@ const Banner = () => {
               Dedicated AI chat in minutes with YOUR documents
             </Heading>
             <Text as="p">
-              Turn your unique documents and websites into a powerful Q&A system for your community, your customers, or just you!<br />
+              Turn your unique documents and websites into a powerful Q&A system for your community, your customers, or just you! <br />
               Join the closed alpha to start getting valuable information with YOUR documents and web sites. No coding required.
             </Text>
             <Box as="form" sx={styles.form} method="post" action="/api/subscribe">

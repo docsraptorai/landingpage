@@ -30,7 +30,7 @@ const SERVICES_DATA = [
   },
   {
     icon: icon4,
-    title: 'Contribute to the community to build the service you want and get the service for free',
+    title: 'Contribute to the community to build the service you want and start using the service for free',
     text:
       'docsraptor.ai is currently in closed alpha and we are engaged to build the best community with all our users around AI powered documents Q&A!',
   },
@@ -60,7 +60,7 @@ const Services = () => {
             </Box>
           ))}
         </Grid>
-        <Box sx={styles.serviceFooter}><a target="_blank" href="https://discord.com/channels/1138385140674998312/1138558383549587477"><h2>Come to talk with the community about more data connectors, chat application publication and API integration options!<FaAngleRight/></h2></a></Box>
+        <Box sx={styles.serviceFooter}><a target="_blank" href="https://discord.com/channels/1138385140674998312/1138558383549587477"><h2>Come talk with the community about more data connectors, chat application publication and API integration options!<FaAngleRight/></h2></a></Box>
       </Container>
     </Box>
   );
