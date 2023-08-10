@@ -35,9 +35,16 @@ export default function Header({ className }) {
           </Flex>
 
           <Link
+              path="/"
+              ml={2}
+              label="Register Now"
+              sx={styles.headerBtn}
+              variant="buttons.primary"
+          />
+          <Link
             path="/"
             ml={2}
-            label="Register Now"
+            label="Login"
             sx={styles.headerBtn}
             variant="buttons.primary"
           />
@@ -62,7 +69,7 @@ const styles = {
     padding: '8px 24px',
     display: ['none', null, null, null, 'inline-block'],
     ml: ['0', null, null, 'auto', '0'],
-    mr: ['0', null, null, '20px', '0'],
+    mr: ['0', null, null, '20px', '10'],
     '&:hover': {
       color: '#fff',
     },

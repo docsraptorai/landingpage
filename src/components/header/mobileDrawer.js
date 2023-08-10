@@ -77,6 +77,9 @@ const MobileDrawer = () => {
             <Button variant="primary" sx={styles.button}>
               Register Now
             </Button>
+            <Button variant="primary" sx={styles.button}>
+              Login
+            </Button>
           </Box>
         </Box>
       </Scrollbars>
@@ -159,6 +162,7 @@ const styles = {
     py: '0',
     backgroundColor: 'primary',
     color: '#fff',
+    marginTop: '10px',
   },
 };
 
