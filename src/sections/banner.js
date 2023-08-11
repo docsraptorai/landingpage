@@ -23,7 +23,7 @@ const Banner = () => {
               Turn your unique documents and websites into a powerful Q&A system for your community, your customers, or just you! <br />
               Join the closed alpha to start getting valuable information with YOUR documents and web sites. No coding required.
             </Text>
-            <Box as="form" sx={styles.form} method="post" action="/api/subscribe">
+            <Box as="form" sx={styles.form} onSubmit={registerMail}>
               <Box as="label" htmlFor="email" variant="styles.srOnly">
                 register
               </Box>
@@ -37,6 +37,9 @@ const Banner = () => {
                 Register
               </Button>
             </Box>
+            <Box as="p">
+              <Box as="label" id="registerBack"></Box>
+            </Box>
           </Box>
           <Box sx={styles.image}>
             <Image src={bannerImg} alt="" />
@@ -46,6 +49,25 @@ const Banner = () => {
     </Box>
   );
 };
+
+const registerMail = async (event) => {
+  event.preventDefault();
+  const mail = event.target.email.value;
+  const response = await fetch('/api/hello', {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({ mail }),
+  });
+
+  const body = await response.json();
+    if (response.status === 200) {
+      document.getElementById('registerBack').innerHTML = body.info + ".Thank you for your interest! We will get back to you soon.";
+    } else {
+      document.getElementById('registerBack').innerHTML = "There was an error registering to the list. Please contact us on discord or send an email at contact@docsraptor.ai";
+    }
+}
 
 export default Banner;
 
